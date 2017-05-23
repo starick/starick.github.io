@@ -6,19 +6,26 @@
   	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   	<link href="src/css/style.css" rel="stylesheet">
     <link href="src/css/font.css" rel="stylesheet">
+    <link href="src/css/nav.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jakob Starick - Architectural Visualization and 3D Art</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="src/script/scrolling.js"></script>
   </head>
 
   <body>
 
-  <header class="darkblue_transparent">
+
+  <nav id="nav" class="darkblue_transparent">
+    <a href=""><span id="nav_logo" class="hidden">jakob starick.</span></a>
     <ul class="lightgrey">
-      <li><a href="#portfolio">portfolio</a></li>
-      <li><a href="#about">about</a></li>
-      <li><a href="#contact">contact</a></li>
+      <li id="nav_portfolio"><a href="#portfolio">portfolio</a></li>
+      <li id="nav_about"><a href="#about">about</a></li>
+      <li id="nav_contact"><a href="#contact">contact</a></li>
     </ul>
-  </header>
+  </nav>
+
 	<section id="startscreen" class="parallax" style='background-image: url("bg.jpg");'>
     <img class="overlay" src="src/img/bg/tiles-fullscreen.png"/>
     <div class="startscreen_heading darkblue_transparent thin">
@@ -28,15 +35,15 @@
 	</section>
 
 	<section id="portfolio">
-    <h1>portfolio</h1>
+    <h2>portfolio</h2>
 	</section>
 
 	<section id="about" class="darkblue_transparent">
-    <h1>about</h1>
+    <h2>about</h2>
 	</section>
 
 	<section id="contact">
-    <h1>contact</h1>
+    <h2>contact</h2>
 	</section>
 
   </body>
