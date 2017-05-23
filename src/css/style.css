@@ -1,0 +1,78 @@
+body, section, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cecece;
+  overflow-x: hidden;
+}
+
+
+section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 5;
+}
+
+.dark {
+  background-color: #1c1d20;
+  color: #cecece;
+}
+
+.darkblue_transparent {
+  background-color: rgba(25,29,35, 0.85);
+  color: #cecece;
+}
+
+div.startscreen_heading {
+  position: absolute;
+  top: 5.5555%;
+
+  width: 100%;
+  text-align: center;
+}
+
+div.startscreen_heading h1 {
+  font-size: 2.5em;
+  margin-top: 0.1em;
+}
+div.startscreen_heading h2  {
+  margin-top: -1em;
+}
+
+header {
+  width: 100%;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 2em;
+  position: absolute;
+  z-index: 10;
+  font-size: 1.5em;
+}
+
+header ul {
+  width: 66.666%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0.25em;
+  float: right;
+}
+header li {
+  margin-bottom: 0.25em;
+  margin: 0 10%;
+  display: inline;
+  white-space: nowrap;
+}
+.parallax {
+   /* Full height */
+   height: 100%;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}

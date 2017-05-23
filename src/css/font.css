@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #191d22;
+}
+
+/* colors */
+.white{
+  color: #cecece;
+}
+.lightgrey {
+  color: #7b7b7b;
+}
+.black {
+  color: #191d22;
+}
+
+
+/* weight */
+
+.thin {
+    font-weight: bold;
+}
+
+.semibold {
+  font-family: "Lato Semibold";
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
