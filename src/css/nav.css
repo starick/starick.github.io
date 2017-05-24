@@ -21,6 +21,11 @@ nav li {
   margin: 0 10%;
   display: inline;
   white-space: nowrap;
+  transition-duration: 0.5s;
+}
+
+nav li:hover{
+  color: #ffffff;
 }
 
 nav.sticky{
@@ -33,4 +38,19 @@ nav.sticky{
   margin-left: 5%;
   padding-top: 0.4em;
   font-size: 1.2em;
+}
+
+.shown {
+  opacity: 1;
+  transition: opacity 2s ease-out;
+  -ms-transition: opacity 2s ease-out;
+  -moz-transition: opacity 2s ease-out;
+  -webkit-transition: opacity 2s ease-out;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  -ms-transition: opacity 0.5s ease-in;
+  -moz-transition: opacity 0.5s ease-in;
+  -webkit-transition: opacity 0.5s ease-in;
 }

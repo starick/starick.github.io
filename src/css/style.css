@@ -44,11 +44,6 @@ section {
   height: 100%;
 }
 
-.hidden {
-  display: none;
-}
-
-
 
 div.startscreen_heading {
   position: absolute;
@@ -61,7 +56,16 @@ div.startscreen_heading h1 {
   font-size: 3em;
   margin-top: 0.1em;
 }
-div.startscreen_heading h2  {
+div.startscreen_heading h3  {
   margin-top: -1.5em;
   font-size: 1.75em;
+}
+
+section h2 {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  top: 1em;
+  text-align: center;
+  font-size: 2em;
 }

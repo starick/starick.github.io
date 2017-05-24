@@ -7,6 +7,7 @@ $(document).ready(function() {
 
       $('#nav').addClass('sticky');
       $('#nav_logo').removeClass('hidden');
+      $('#nav_logo').addClass('shown');
       if ( $(window).scrollTop() >= $('#contact').offset().top) {
         $('#nav_portfolio').removeClass('white');
         $('#nav_about').removeClass('white');
