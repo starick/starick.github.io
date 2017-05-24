@@ -1,0 +1,48 @@
+.portfolio_container {
+  text-align: center;
+}
+
+.portfolio_preview {
+  position: relative;
+  display: block;
+  width: 92vw;
+  height 69vw;
+  background-color: #1c1d20;
+  overflow: hidden;
+}
+
+@media (min-width: 800px){
+  .portfolio_preview {
+    display: inline-block;
+    width: 48vw;
+    height: 36vw;
+  }
+
+  @media (min-width: 1200px){
+    .portfolio_preview {
+      width: 32vw;
+      height: 24vw;
+    }
+  }
+}
+
+
+
+
+.portfolio_preview .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  opacity: 0.5;
+}
+
+.portfolio_preview_picture {
+  width: inherit;
+  height: inherit;
+}
+
+.portfolio_preview :hover{
+
+}
