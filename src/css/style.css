@@ -62,10 +62,14 @@ div.startscreen_heading h3  {
 }
 
 section h2 {
-  position: relative;
-  left: 40%;
-  width: 20%;
-  top: 1em;
+
+  padding-top: 15vh;
   text-align: center;
   font-size: 2em;
+}
+
+.one-third {
+  position:  relative;
+  height: 33.33vh;
+  overflow: hidden;
 }
