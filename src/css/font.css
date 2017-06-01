@@ -1,6 +1,8 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #191d22;
+    font-weight: 300;
+    letter-spacing: 0.05em;
 }
 
 /* colors */
@@ -18,15 +20,23 @@ body {
 /* weight */
 
 .thin {
-    font-weight: bold;
+    font-weight: 200;
 }
 
 .semibold {
-  font-family: "Lato Semibold";
+  font-weight: 600;
 }
 
+.wide {
+  letter-spacing: 0.05em;
+}
 
-
+.text {
+  font-family: 'Lato', sans-serif;
+}
+.justify {
+  text-align: justify;
+}
 
 a {
   text-decoration: none;
