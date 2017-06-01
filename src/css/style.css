@@ -71,8 +71,42 @@ section h2 {
   position:  relative;
   height: 33.33vh;
   overflow: hidden;
+
 }
 
 .padding {
   padding: 0.25em 1em;
+}
+.margin-bottom {
+  margin-bottom: 3em;
+}
+
+ul.text{
+  list-style-position: outside;
+  padding-left: 1em;
+  margin-top: -1em;
+  list-style-type: square;
+}
+
+ul.text li {
+  padding: 0.25em 0;
+}
+
+
+.block {
+  margin: 0 5%;
+  display: block;
+  vertical-align: top;
+}
+@media (min-width: 800px){
+  .block {
+    display: inline-block;
+    max-width: 45%;
+  }
+  @media (min-width: 1200px){
+    .block {
+      display: inline-block;
+      max-width: 22%;
+    }
+  }
 }
