@@ -70,7 +70,12 @@ section h2 {
   position:  relative;
   height: 33.33vh;
   overflow: hidden;
+}
 
+.half-height {
+  position:  relative;
+  height: 50vh;
+  overflow: hidden;
 }
 
 .padding {
