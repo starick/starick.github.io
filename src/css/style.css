@@ -49,33 +49,7 @@ section {
   height: 100%;
 }
 
-#startscreen {
-  background-color:
 }
-div.startscreen_heading {
-  position: absolute;
-  top: 0;
-  width: 38%;
-  height: 100%;
-  text-align: center;
-}
-
-div.startscreen_heading h1 {
-  position: absolute;
-  top: 5%;
-  left: 5vw;
-  font-size: 4em;
-  margin-top: 0;
-}
-div.startscreen_heading h3  {
-  margin-top: -1.5em;
-  font-size: 1.75em;
-}
-
-div.startscreen_heading > ul {
-  position: absolute;
-  left: 5vw;
-  bottom: 5%;
 }
 
 section h2 {
