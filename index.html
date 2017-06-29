@@ -24,6 +24,7 @@
     <link href="src/css/nav.css" rel="stylesheet">
     <link href="src/css/startscreen.css" rel="stylesheet">
     <link href="src/css/portfolio.css" rel="stylesheet">
+    <link href="src/css/contact.css" rel="stylesheet">
   </head>
 
   <body>
@@ -47,18 +48,16 @@
           <li><a id="startscreen_about" href="#about">&raquo; about</a></li>
           <li><a id="startscreen_contact" href="#contact">&raquo; contact</a></li>
         </ul>
+        <script src="src/script/scrolling.js"></script>
       </div> <!-- startscreen_menu -->
-
   	</section>
-    <script src="src/script/scrolling.js"></script>
-
-  	<section id="portfolio">
+  	<section id="portfolio"  class="darkblue">
       <h2 class="wide">portfolio</h2>
       <div class="portfolio_container">
         <div class="portfolio_preview">
-          <img class="portfolio_preview_picture" src="src/img/preview/starick-apartement.jpg"/>
+          <img class="portfolio_preview_picture" src="src/img/preview/starick-apartment.jpg"/>
           <div class="overlay"></div>
-          <h3 class="darkblue_transparent white padding thin wide">apartement &ndash; living room</h3>
+          <h3 class="darkblue_transparent white padding thin wide">apartment &ndash; living room</h3>
         </div>
         <div class="portfolio_preview">
           <img class="portfolio_preview_picture" src="src/img/preview/starick-preview-barclay-clawfoot.jpg"/>
@@ -66,25 +65,15 @@
           <h3 class="darkblue_transparent white padding thin wide">barclay clawfoot bathtub</h3>
         </div>
         <div class="portfolio_preview">
-          <img class="portfolio_preview_picture" src="src/img/preview/starick-preview-barclay-clawfoot.jpg"/>
+          <img class="portfolio_preview_picture" src="src/img/preview/starick-preview-guitar.jpg"/>
           <div class="overlay"></div>
+          <h3 class="darkblue_transparent white padding thin wide">acoustic guitar</h3>
         </div>
-        <div class="portfolio_preview">
-          <img class="portfolio_preview_picture" src="src/img/preview/starick-preview-barclay-clawfoot.jpg"/>
-          <div class="overlay"></div>
-        </div>
-        <div class="portfolio_preview">
-          <img class="portfolio_preview_picture" src="src/img/preview/starick-preview-barclay-clawfoot.jpg"/>
-          <div class="overlay"></div>
-        </div>
-        <div class="portfolio_preview">
-          <img class="portfolio_preview_picture" src="src/img/preview/starick-preview-barclay-clawfoot.jpg"/>
-          <div class="overlay"></div>
-        </div>
+
       </div>
   	</section>
 
-  	<section id="about" class="darkblue">
+  	<section id="about">
       <h2 class="wide">about</h2>
       <div class="block">
         <h3>technical skills</h3>
@@ -146,23 +135,52 @@
       </div>
 
     </section>
-    <div class="half-height parallax margin-bottom" style='background-image: url("src/img/bg/starick-bg-guitar.jpg");'>
+    <div class="parallax height_half" style='background-image: url("src/img/bg/starick-bg-guitar.jpg");'>
       <div class="overlay"></div>
     </div>
-  	<section id="contact">
+    <section id="contact" class="darkblue">
       <h2 class="wide">contact</h2>
-      <div class="block text">
+      <div class="block_double text">
         <p>
-          Jakob Starick <br/>
-          Stra&szlig;e der Jugend<br/>
-          16792 Zehdenick
+          Want to get in touch? Don't hesitate!<br/> Shoot me a mail, or reach out to one of my social media accounts.
         </p>
         <p>
           <a href="jakob.starick@web.de">jakob.starick@web.de</a>
         </p>
+        <p>
+          <a href="https://www.linkedin.com/in/jakob-starick-283b8a145" target="_blank"><img class="social-media" src="src/img/icon/linkedin.svg"/></a>
+          <a href="https://twitter.com/JakobStarick" target="_blank"><img class="social-media"  src="src/img/icon/twitter.svg"/></a>
+          <a href="https://plus.google.com/110271333957729259223" target="_blank"><img class="social-media"  src="src/img/icon/googleplus.svg"/></a>
+          <script src="src/script/convert-svg.js"></script>
+        </p>
+        <br/>
+        <form id="contact" action="" method="post">
+          <p>
+            name<br/>
+            <input class="width-70" type="text" id="contact_name"></input>
+          </p>
+          <p>
+            e-mail<br/>
+            <input class="width-70"  type="email" id="contact_email"></input>
+          </p>
+          <p>
+            subject<br/>
+            <input class="width-70"  type="text" id="contact_subject"></input>
+          </p>
+          <p>
+            message<br/>
+            <textarea class="width-70" id="contact_message"></textarea>
+          </p>
+          <p>
+            <input type="submit" value="send"/>
+          </p>
+        </form>
+        <br/>
       </div>
 
-
   	</section>
+    <div class="footer">
+      &copy; Jakob Starick 2017; all rights reserved.
+    </div>
   </body>
 </html>

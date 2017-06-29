@@ -1,0 +1,14 @@
+.width-70{
+  width: 70%;
+}
+
+#contact textarea {
+  height: 300px;
+  max-height: 50vh;
+  resize: none;
+
+}
+
+#contact form p {
+  margin-bottom: 2em;
+}

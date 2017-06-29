@@ -12,6 +12,8 @@ body {
 
 section {
   position: relative;
+  top: -1.67em;
+  margin-bottom: -1.67em;
   min-height: 100vh;
   width: 100%;
   z-index: 5;
@@ -38,6 +40,7 @@ section {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   margin: 0;
 }
 
 .overlay {
@@ -66,16 +69,12 @@ section h2 {
   font-weight: 200;
 }
 
-.one-third {
-  position:  relative;
+.height_third {
   height: 33.33vh;
-  overflow: hidden;
 }
 
-.half-height {
-  position:  relative;
+.height_half {
   height: 50vh;
-  overflow: hidden;
 }
 
 .padding {
@@ -102,15 +101,37 @@ ul.text li {
   display: block;
   vertical-align: top;
 }
+.block_double {
+  margin: 0 5%;
+  display: block;
+  vertical-align: top;
+  width: 95%;
+}
 @media (min-width: 800px){
   .block {
     display: inline-block;
-    max-width: 45%;
+    width: 45%;
   }
+
   @media (min-width: 1200px){
     .block {
+      width: 22%;
+    }
+    .block_double {
       display: inline-block;
-      max-width: 22%;
+      width: 55%;
     }
   }
+}
+
+
+.social-media {
+  width: 24px;
+  margin-right: 0.5em;
+  fill: white;
+}
+
+.footer {
+  padding: 0.5em 5vw 1em 5vw;
+  font-size: 0.66em;
 }
