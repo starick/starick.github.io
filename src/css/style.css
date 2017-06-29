@@ -2,7 +2,9 @@ body, section, div {
   margin: 0;
   padding: 0;
 }
-
+a {
+  cursor: pointer;
+}
 body {
   background-color: #dedede;
   overflow-x: hidden;

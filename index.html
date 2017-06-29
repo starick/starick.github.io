@@ -14,16 +14,16 @@
     <title>Jakob Starick - Architectural Visualization and 3D Art</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="src/script/scrolling.js"></script>
+
   </head>
 
   <body>
     <nav id="nav" class="darkblue_transparent hidden">
       <a href=""><span id="nav_logo"><span class="lightgrey">jakob</span> starick<span class="lightgrey">.</span></span></a>
       <ul class="lightgrey">
-        <li id="nav_portfolio"><a href="#portfolio">portfolio</a></li>
-        <li id="nav_about"><a href="#about">about</a></li>
-        <li id="nav_contact"><a href="#contact">contact</a></li>
+        <li><a id="nav_portfolio" href="#portfolio">portfolio</a></li>
+        <li><a id="nav_about" href="#about">about</a></li>
+        <li><a  id="nav_contact" href="#contact">contact</a></li>
       </ul>
     </nav>
 
@@ -34,13 +34,14 @@
           <h3 class="lightgrey thin">Architectural Visualization &amp; 3D Art</h3>
         </div> <!-- startscreen_heading -->
         <ul class="white wide">
-          <li><a href="#portfolio">&raquo; portfolio</a></li>
-          <li><a href="#about">&raquo; about</a></li>
-          <li><a href="#contact">&raquo; contact</a></li>
+          <li><a id="startscreen_portfolio" href="#portfolio">&raquo; portfolio</a></li>
+          <li><a id="startscreen_about" href="#about">&raquo; about</a></li>
+          <li><a id="startscreen_contact" href="#contact">&raquo; contact</a></li>
         </ul>
       </div> <!-- startscreen_menu -->
 
   	</section>
+    <script src="src/script/scrolling.js"></script>
 
   	<section id="portfolio">
       <h2 class="wide">portfolio</h2>
