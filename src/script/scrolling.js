@@ -3,10 +3,11 @@ $(document).ready(function() {
   $(window).scroll(function () {
 
     // sticky bar:
-    if ($(window).scrollTop() > $('#startscreen').height() - $('#nav').height()) {
+    if ($(window).scrollTop() > $('#startscreen').height()) {
 
       $('#nav').addClass('sticky');
-      $('#nav_logo').removeClass('hidden');
+
+      $('#nav').removeClass('hidden');
       $('#nav_logo').addClass('shown');
       if ( $(window).scrollTop() >= $('#contact').offset().top) {
         $('#nav_portfolio').removeClass('white');
@@ -23,7 +24,7 @@ $(document).ready(function() {
       }
     } else {
       $('#nav').removeClass('sticky');
-      $('#nav_logo').addClass('hidden');
+      $('#nav').addClass('hidden');
       $('#nav_portfolio').removeClass('white');
       $('#nav_about').removeClass('white');
       $('#nav_contact').removeClass('white');
