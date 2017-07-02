@@ -4,17 +4,17 @@ $(document).ready(function() {
 
   $(window).scroll(function () {
     // sticky bar:
-    if ($(window).scrollTop() > $('#startscreen').height()) {
+    if ($(window).scrollTop() > $('#startscreen').height()-2) {
 
       $('#nav').addClass('sticky');
 
       $('#nav').removeClass('hidden');
       $('#nav_logo').addClass('shown');
-      if ( $(window).scrollTop() >= $('#contact').offset().top - 1) {
+      if ( $(window).scrollTop() >= $('#contact').offset().top - 2) {
         $('#nav_portfolio').removeClass('white');
         $('#nav_about').removeClass('white');
         $('#nav_contact').addClass('white');
-      } else if ( $(window).scrollTop() >= $('#about').offset().top - 1) {
+      } else if ( $(window).scrollTop() >= $('#about').offset().top - 2) {
         $('#nav_portfolio').removeClass('white');
         $('#nav_about').addClass('white');
         $('#nav_contact').removeClass('white');
