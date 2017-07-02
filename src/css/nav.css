@@ -1,4 +1,9 @@
+
+
 nav {
+  transition: background-color 0.5s;
+  background-color: rgba(41, 44, 47, 0.8);
+  font-size: 0.75em;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -6,19 +11,25 @@ nav {
   height: 2em;
   position: absolute;
   z-index: 10;
-  font-size: 1.5em;
+  font-size: 0.75em;
 }
 
+
+
+nav:hover {
+  background-color: rgba(41, 44, 47, 0.9);
+}
 nav ul {
-  width: 66.666%;
   text-align: center;
   display: inline-block;
   margin-top: 0.25em;
-  float: right;
+  position: absolute;
+  right: 5%;
 }
+
 nav li {
   margin-bottom: 0.25em;
-  margin: 0 10%;
+  margin-left: 2em;
   display: inline;
   white-space: nowrap;
   transition-duration: 0.5s;
@@ -53,4 +64,18 @@ nav.sticky{
   -ms-transition: opacity 0.5s ease-in;
   -moz-transition: opacity 0.5s ease-in;
   -webkit-transition: opacity 0.5s ease-in;
+}
+
+@media (min-width: 1000px){
+  nav {
+    font-size: 1.5em;
+  }
+  nav li {
+    margin-left: 4em;
+  }
+  @media (min-width: 1400px){
+    nav li {
+      margin-left: 6em;
+    }
+  }
 }

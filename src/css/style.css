@@ -54,13 +54,6 @@ section {
   height: 100%;
 }
 
-#nav {
-  transition: background-color 0.5s;
-  background-color: rgba(41, 44, 47, 0.8);
-}
-#nav:hover {
-  background-color: rgba(41, 44, 47, 0.9);
-}
 
 section h2 {
   padding-top: 15vh;
