@@ -16,6 +16,9 @@ body {
   color: #191d22;
 }
 
+.underlined {
+  text-decoration: underline;
+}
 
 /* weight */
 
@@ -29,6 +32,10 @@ body {
 
 .wide {
   letter-spacing: 0.05em;
+}
+
+.extrawide {
+  letter-spacing: 0.1em;
 }
 
 .text {
