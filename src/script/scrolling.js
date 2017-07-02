@@ -47,6 +47,12 @@ $(document).ready(function() {
   $('#nav_contact').click(function(){ scrollTo("contact"); return false; });
 
 
+  function sendMail(){
+    window.alert("The mail form is currently deactivated. Please send a mail manually or get in touch via social media.")
+  }
+  $('#contact_submit').click(function(){ sendMail(); return false; });
+
+
 
 
 });
