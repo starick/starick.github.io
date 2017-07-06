@@ -128,3 +128,8 @@ ul.text li {
   padding: 0.5em 5vw 1em 5vw;
   font-size: 0.66em;
 }
+
+img.portrait {
+  max-width: 100%;
+  max-height: 80vh;
+}
