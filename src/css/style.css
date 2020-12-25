@@ -56,7 +56,8 @@ section {
 
 
 section h2 {
-  padding-top: 15vh;
+  padding-top: 3em;
+  margin-bottom: 1.5em;
   text-align: center;
   font-size: 2em;
   font-weight: 200;
